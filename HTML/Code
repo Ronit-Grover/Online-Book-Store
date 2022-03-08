@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <style>
+    *{
+      margin: 0px;
+    }
+    body{
+      background-color: #E8973B;
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+    <header class="text-gray-600 body-font" style="background-color: black;">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl" style="color: white;">Books Bhandar</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" style="color: white; margin-right: 80px;">Home</a>
+            <a class="mr-5 hover:text-gray-900" style="color: white; margin-right: 80px;">About Us</a>
+            <a class="mr-5 hover:text-gray-900" style="color: white; margin-right: 80px;">Contact Us</a>
+          </nav>
+          <input type="search" name="search" id="search" placeholder="Search" style="padding-left: 6px; border-radius: 8px;">
+        </div>
+      </header>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" style="color: #1A374D;">Sci-Fi Books</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="color: #FBF8F1;">Take a trip into the future with our pick of the best science fiction novels of all time</p>
+    </div>
+    <div style="align-items: center;text-align: center;margin-left: 100px;">
+      <iframe style="width: 90%;height: 500px;" src="https://www.wired.co.uk/article/best-sci-fi-books" frameborder="2" ></iframe>
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" style="color: #1A374D;">Fantasy Novels</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="color: #FBF8F1;">Cast your eyes upon our list of some of the best fantasy novels of all time</p>
+    </div>
+    <div style="align-items: center;text-align: center;margin-left: 100px;">
+      <iframe style="width: 90%;height: 500px;" src="https://www.wired.co.uk/article/best-fantasy-books-novels-series" frameborder="2" ></iframe>
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" style="color: #1A374D;">Science and Tech Books</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="color: #FBF8F1;">Our pick for the best Science and Tech Books of 2020</p>
+    </div>
+    <div style="align-items: center;text-align: center;margin-left: 100px;">
+      <iframe style="width: 90%;height: 500px;" src="https://www.wired.co.uk/article/best-books-2020" frameborder="2" ></iframe>
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" style="color: #1A374D;">Dystopian Novels</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="color: #FBF8F1;"> Peruse our pick of the best dystopian novels of all time and realise that things could be a lot worse</p>
+    </div>
+    <div style="align-items: center;text-align: center;margin-left: 100px;">
+      <iframe style="width: 90%;height: 500px;" src="https://www.wired.co.uk/article/best-dystopian-novels-books" frameborder="2" ></iframe>
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" style="color: black;">Best Books(2010-2019)</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="color: #FBF8F1;">Our pics for the best books of the decade</p>
+    </div>
+    <div style="align-items: center;text-align: center;margin-left: 100px;">
+      <iframe style="width: 90%;height: 500px;" src="https://www.wired.co.uk/article/best-books-of-the-decade-2010-to-2019" frameborder="2" ></iframe>
+    </div>
+  </div>
+</section>
+<div style="background-color: black;height: 50px;display: flex;flex-direction: row;justify-content: space-evenly;align-items: center;">
+  <p><a href="mailto:groverronit99@gmail.com" style="color: white; text-decoration: none;">Contact Us</a></p>
+  <p style="color: white;">©️RONIT GROVER 2022</p>
+</div>
+</body>
+</html>
